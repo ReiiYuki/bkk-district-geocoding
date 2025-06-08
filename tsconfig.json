@@ -6,6 +6,7 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "resolveJsonModule": true,
+    "types": ["vitest/globals"],
     "strict": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,

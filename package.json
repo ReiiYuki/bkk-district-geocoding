@@ -1,17 +1,19 @@
 {
-  "name": "vite-vanilla-library",
-  "version": "0.0.0",
+  "name": "bkk-district-geocoding",
   "type": "module",
+  "version": "0.0.0",
   "exports": {
     ".": {
-      "import": "./dist/vite-vanilla-library.js",
-      "require": "./dist/vite-vanilla-library.cjs"
+      "import": "./dist/bkk-district-geocoding.js",
+      "require": "./dist/bkk-district-geocoding.cjs"
     }
   },
-  "main": "./dist/vite-vanilla-library.cjs",
-  "module": "./dist/vite-vanilla-library.js",
-  "types": "./dist/vite-vanilla-library.d.ts",
-  "files": ["dist"],
+  "main": "./dist/bkk-district-geocoding.cjs",
+  "module": "./dist/bkk-district-geocoding.js",
+  "types": "./dist/bkk-district-geocoding.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -21,6 +23,9 @@
     "test:watch": "vitest",
     "test:coverage": "vitest --coverage",
     "prepare": "husky install"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.2.0"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^3.16.0",
