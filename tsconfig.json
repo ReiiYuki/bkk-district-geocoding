@@ -3,7 +3,7 @@
     "target": "ESNext",
     "lib": ["ESNext", "DOM"],
     "rootDir": "./src",
-    "module": "ESNext",
+    "module": "NodeNext",
     "moduleResolution": "nodenext",
     "resolveJsonModule": true,
     "types": ["vitest/globals"],
